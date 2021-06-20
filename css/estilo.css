@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif, arial;
+    list-style: none;
+}
+
+body{
+    margin: 0;
+    background-color: aqua;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}   
+
+header{
+    width: 100%;
+    background-color: aquamarine;
+}
+
+
+.menu{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.menu > li{
+    border: 0.1px solid;
+    border-radius: 15px;
+    background-color: gray;
+}
+
+.menu >li > a{
+    padding: 20px;
+
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.escrita{
+    text-align: center;
+    margin: 0;
+}
+
+.banner{
+    width: 100%;
+    margin: 0;
+}
+
+.zapwap{
+    width: 40px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.pezinho{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 25px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+}
